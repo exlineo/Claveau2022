@@ -1,0 +1,709 @@
+:root{
+  /* Variables */
+  --clair:#FFF8E8;
+  --rose:#960D34;
+  --rouge:#CE273D;
+  --jaune:#FFB01F;
+  --vert:#307353;
+}
+html, body{
+    scroll-behavior: smooth;
+    width:100%;
+    height:100%;
+    background-color: var(--clair);
+}
+html, body, main, section{
+    padding:0;
+    margin:0;
+}
+body{
+    overflow: hidden;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    color:black;
+    position:relative;
+}
+nav{
+  display:flex;
+  flex-flow:row nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+nav#menu{
+  justify-content: flex-end;
+  width:100%;
+  box-sizing: border-box;
+}
+nav#menu > a{
+  line-height:40px;
+  width: max-content;
+  padding:5px 15px;
+  background-color: var(--clair);
+}
+nav#reseaux{
+  background-color:var(--jaune);
+  justify-content: flex-end;
+  width:100%;
+  padding:10px 20px;
+  box-sizing: border-box;
+  color:var(--clair);
+  align-items: center;
+}
+nav#reseaux > * {
+  margin:auto 5px;
+}
+nav#reseaux > a{
+  margin:auto 0;
+}
+nav#reseaux > a > img{
+  width:50px;
+}
+body > div{
+    display:flex;
+    flex-flow:row nowrap;
+    width:auto;
+    box-sizing: border-box;
+}
+a {
+    cursor: pointer;
+    font-weight:normal;
+    transition:all .3s ease;
+}
+a:hover{
+  transform: scale(1.1);
+}
+main{
+    width:90vw;
+    max-width: 1440px;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+main > *{
+  width:100%;
+}
+main > header{
+  height: 600px;
+  background: url('../images/entete/Confluent_Mont_de_Marsan.jpg') 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+main > header > section:nth-child(1){
+  height:150px;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+main > header > section:nth-child(2){
+  height:450px;
+  flex-flow: row nowrap;
+}
+main > header > section{
+  width:100%;
+}
+main > header > section:nth-child(2) > article{
+  width:50%;
+}
+main > header > section:nth-child(2) > article:nth-child(1){
+  padding:0;
+}
+main > header > section:nth-child(2) > article:nth-child(1) > div{
+  margin:auto 0 0 0;
+  width:100%;
+}
+main > header > section:nth-child(2) > article:nth-child(2){
+  background-color: var(--clair);
+}
+section{
+  display:flex;
+}
+article{
+  position : relative;
+  display:flex;
+  padding:20px;
+  box-sizing: border-box;
+}
+article > div{
+  padding:0;
+  margin:0;
+}
+article hr{
+  border:thin rgba(255,255,255,.5) solid;
+  margin-left:auto;
+  margin-right:0;
+  width:50%;
+}
+article > div > label{
+  position:absolute;
+  top:5px;
+  right:5px;
+  font-size:10px;
+  padding:6px 12px;
+  background-color:orange;
+  font-style: italic;
+}
+main > section > * {
+    margin:auto;
+}
+main > section{
+  width:100vw;
+  height:100vh;
+  flex-flow:column wrap;
+  align-items: stretch;
+}
+main > section > section{
+  display:flex;
+  flex-flow:column wrap;
+  align-items: center;
+  width:50vw;
+  height:calc(100vh - 75px);
+  margin:0;
+  padding:20px;
+  box-sizing: border-box;
+  overflow-y:auto;
+}
+main > section > section:nth-child(1){
+  background:0% 100% no-repeat;
+}
+main > section > article, main > section > section > article{
+  flex-flow:column wrap;
+  box-sizing: border-box;
+  width:100%;
+  columns: auto auto;
+  margin:auto 0;
+}
+main > section > article:nth-child(even), main > section > section:nth-child(even){
+  padding:0 5%;
+  padding-left: calc(5% + 70px);
+}
+main > section > article:nth-child(odd), main > section > section:nth-child(odd){
+  padding:5%;
+  padding-right: calc(5% + 70px);
+}
+p{
+  padding-left:50px;
+}
+ul, ol {
+  padding-left:75px;
+}
+ul > li {
+  list-style:circle;
+}
+h1{
+  font-weight:100;
+  font-size:60px;
+  margin:50px 0 0;
+}
+h2{
+  font-weight:100;
+  font-size:36px;
+}
+h3{
+  font-weight:500;
+  font-size:21px;
+}
+h4{
+  font-weight:500;
+  font-size:18px;
+}
+h5{
+  font-weight:900;
+  font-size:16px;
+}
+figure{
+  width:100%;
+  min-height:300px;
+  background:50% no-repeat;
+  background-size: contain;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+button{
+  width: max-content;
+  background-color : var(--rose);
+  border:none;
+  padding : 16px;
+  color:var(--clair);
+  align-self: flex-end;
+  cursor: pointer;
+  transition:background-color .4s ease;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 100;
+  pointer-events: auto;
+}
+button:hover{
+  background-color : var(--vert);
+}
+button a{
+  text-decoration: none;
+  font-weight:500;
+  display:block;
+}
+button a:hover{
+  font-weight:500;
+}
+/* MENU */
+.menu-toggler {
+    position: absolute;
+    display: block;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    width:40px;
+    height:40px;
+    z-index:2;
+    opacity:0;
+    cursor:pointer;
+    pointer-events: auto;
+  }
+  .menu-toggler:before{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+  }
+  .menu-toggler:hover + label,
+  .menu-toggler:hover + label:before,
+  .menu-toggler:hover + label:after{
+    background: var(--clair);
+  }
+  .menu-toggler:checked + label {
+    background: transparent;
+  }
+  .menu-toggler:checked + label:before,
+  .menu-toggler:checked + label:after{
+    top:0;
+    width:40px;
+    transform-origin: 50% 50%;
+  }
+  .menu-toggler:checked + label:before {
+    transform: rotate(45deg);
+  }
+  .menu-toggler:checked + label:after {
+    transform: rotate(-45deg);
+  }
+  .menu-toggler:checked ~ ul .menu-item { 
+    opacity: 1;
+    /* box-shadow: 2px 2px 8px rgba(0,0,0,.7) inset; */
+  }
+  .menu-toggler:checked ~ ul .menu-item:nth-child(1) {
+    transform: rotate(0deg) translate(-110px);
+  }
+  .menu-toggler:checked ~ ul .menu-item:nth-child(2) {
+    transform: rotate(60deg) translateX(-110px);
+  }
+  .menu-toggler:checked ~ ul .menu-item:nth-child(3) {
+    transform: rotate(120deg) translateX(-110px);
+  }
+  .menu-toggler:checked ~ ul .menu-item:nth-child(4) {
+    transform: rotate(180deg) translateX(-110px);
+  }
+  .menu-toggler:checked ~ ul .menu-item:nth-child(5) {
+    transform: rotate(240deg) translateX(-110px);
+  }
+  .menu-toggler:checked ~ ul .menu-item:nth-child(6) {
+    transform: rotate(300deg) translateX(-110px);
+  }
+  .menu-toggler:checked ~ ul .menu-item a {
+    pointer-events:auto;
+  }
+  .menu-toggler + label {
+    width: 40px;
+    height: 5px;
+    display: block;
+    z-index: 1;
+    border-radius: 2.5px;
+    background: rgba(230, 239, 250, 0.9);
+    transition: transform 0.5s top 0.5s;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .menu-toggler + label:before,
+  .menu-toggler + label:after {
+    width: 40px;
+    height: 5px;
+    display: block;
+    z-index: 1;
+    border-radius: 2.5px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: transform 0.5s top 0.5s;
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+  }
+  .menu-toggler + label:before {
+    top: 10px;
+  }
+  .menu-toggler + label:after {
+    top: -10px;
+  }
+  .menu-item:nth-child(1) a {
+    transform: rotate(0deg);
+  }
+  .menu-item:nth-child(2) a {
+    transform: rotate(-60deg);
+  }
+  .menu-item:nth-child(3) a {
+    transform: rotate(-120deg);
+  }
+  .menu-item:nth-child(4) a {
+    transform: rotate(-180deg);
+  }
+  .menu-item:nth-child(5) a {
+    transform: rotate(-240deg);
+  }
+  .menu-item:nth-child(6) a {
+    transform: rotate(-300deg);
+  }
+  .menu-item {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+    transition: 0.5s;
+    
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(230, 230, 250, 0.7);
+    border-radius: 50%;
+  }
+  .menu-item:hover{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .menu-item:hover a{
+    line-height: 100px;
+  }
+  .menu-item:hover a > span{
+    font-size:60px;
+  }
+  .menu-item a {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    pointer-events: none;
+    transition: 0.2s;
+    position:relative;
+  }
+  .menu-item a > *{
+    display: flex;
+  }
+  .menu-item a > span{
+    margin:auto;
+    font-size: 40px;
+  }
+  .menu-item a > label{
+    display:none;
+    position: absolute;
+    top: calc(50% - 20px);
+    opacity:0;
+    transition:all .3s ease;
+    pointer-events: none;
+  }
+  .menu-item a:hover > label{
+    display:block;
+    opacity:1;
+  }
+/* CLASSES DES PAGES */
+/* POPUP CROIX DE LA POPUP */
+#popup{
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  display:flex;
+  top:0;
+  left:0;
+  z-index:1001;
+  background-color:rgba(0,0,0,.7);
+  overflow-x:hidden;
+  overflow-y:auto;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#popup article{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin:auto;
+  background-color:rgba(0,0,0,.7);
+}
+#popup article > div{
+  margin:0 20px;
+}
+#popup article > div{
+  display:flex;
+  flex-flow: column nowrap;
+}
+.close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  z-index:1002;
+}
+.close:hover {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+.rose{
+  color: var(--rose);
+}
+.rouge{
+  color:var(--rouge);
+}
+.vert{
+  color: var(--vert);
+}
+.jaune{
+  color:var(--jaune);
+}
+.clair{
+  color:var(--clair);
+}
+.bg-rose{
+  background-color: var(--rose);
+}
+.bg-rouge{
+  background-color: var(--rouge);
+}
+.bg-vert{
+  background-color: var(--vert);
+}
+.bg-jaune{
+  background-color: var(--jaune);
+}
+.bg-clair{
+  background-color: var(--clair);
+}
+.menu-rose{
+  border-bottom:4px solid;
+  border-bottom-color: var(--rose);
+}
+.menu-jaune{
+  border-bottom:4px solid;
+  border-bottom-color: var(--jaune);
+}
+.menu-vert{
+  border-bottom:4px solid;
+  border-bottom-color: var(--vert);
+}
+.menu-rouge{
+  border-bottom:4px solid;
+  border-bottom-color: var(--rouge);
+}
+.menu-clair{
+  border-bottom:2px solid;
+  border-bottom-color: var(--clair);
+}
+.icone{
+  font-family: 'Material Icons' !important;
+  font-size:24px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+/* UTILITAIRES */
+/* 
+  You want a simple and fancy tooltip?
+  Just copy all [data-tooltip] blocks:
+*/
+[data-tooltip] {
+  position: relative;
+  z-index: 10;
+}
+/* Positioning and visibility settings of the tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 5px); /* 5px is the size of the arrow */
+  pointer-events: none;
+  transition: 0.2s;
+  will-change: transform;
+}
+/* The actual tooltip with a dynamic width */
+[data-tooltip]:before {
+  content: attr(title);
+  padding: 10px 18px;
+  min-width: 50px;
+  max-width: 300px;
+  width: max-content;
+  line-height:1;
+  width: -moz-max-content;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight:900;
+  background-color: rgba(59, 72, 80, 0.9);
+  background-image: linear-gradient(30deg,
+    rgba(59, 72, 80, 0.44),
+    rgba(59, 68, 75, 0.44),
+    rgba(60, 82, 88, 0.44));
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px) scale(0.5);
+  color:var(--clair);
+}
+/* Tooltip arrow */
+[data-tooltip]:after {
+  content: '';
+  border-style: solid;
+  border-width: 5px 5px 0px 5px; /* CSS triangle */
+  border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent;
+  transition-duration: 0s; /* If the mouse leaves the element, 
+                              the transition effects for the 
+                              tooltip arrow are "turned off" */
+  transform-origin: top;   /* Orientation setting for the
+                              slide-down effect */
+  transform: translateX(-50%) scaleY(0);
+}
+/* Tooltip becomes visible at hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+/* Scales from 0.5 to 1 -> grow effect */
+[data-tooltip]:hover:before {
+  transition-delay: 0.3s;
+  transform: translate(-50%, -5px) scale(1);
+}
+/* 
+  Arrow slide down effect only on mouseenter (NOT on mouseleave)
+*/
+[data-tooltip]:hover:after {
+  transition-delay: 0.5s; /* Starting after the grow effect */
+  transition-duration: 0.2s;
+  transform: translateX(-50%) scaleY(1);
+}
+/*
+  That's it for the basic tooltip.
+*/
+/* LEFT */
+/* Tooltip + arrow */
+[data-tooltip-location="left"]:before,
+[data-tooltip-location="left"]:after {
+  left: auto;
+  right: calc(100% + 5px);
+  bottom: 50%;
+}
+/* Tooltip */
+[data-tooltip-location="left"]:before {
+  transform: translate(-5px, 50%) scale(0.5);
+}
+[data-tooltip-location="left"]:hover:before {
+  transform: translate(-5px, 50%) scale(1);
+}
+/* Arrow */
+[data-tooltip-location="left"]:after {
+  border-width: 5px 0px 5px 5px;
+  border-color: transparent transparent transparent rgba(55, 64, 70, 0.9);
+  transform-origin: left;
+  transform: translateY(50%) scaleX(0);
+}
+[data-tooltip-location="left"]:hover:after {
+  transform: translateY(50%) scaleX(1);
+}
+/* RIGHT */
+[data-tooltip-location="right"]:before,
+[data-tooltip-location="right"]:after {
+  left: calc(100% + 5px);
+  bottom: 50%;
+}
+
+[data-tooltip-location="right"]:before {
+  transform: translate(5px, 50%) scale(0.5);
+}
+[data-tooltip-location="right"]:hover:before {
+  transform: translate(5px, 50%) scale(1);
+}
+
+[data-tooltip-location="right"]:after {
+  border-width: 5px 5px 5px 0px;
+  border-color: transparent rgba(55, 64, 70, 0.9) transparent transparent;
+  transform-origin: right;
+  transform: translateY(50%) scaleX(0);
+}
+[data-tooltip-location="right"]:hover:after {
+  transform: translateY(50%) scaleX(1);
+}
+/* BOTTOM */
+[data-tooltip-location="bottom"]:before,
+[data-tooltip-location="bottom"]:after {
+  top: calc(100% + 5px);
+  bottom: auto;
+}
+
+[data-tooltip-location="bottom"]:before {
+  transform: translate(-50%, 5px) scale(0.5);
+}
+[data-tooltip-location="bottom"]:hover:before {
+  transform: translate(-50%, 5px) scale(1);
+}
+
+[data-tooltip-location="bottom"]:after {
+  border-width: 0px 5px 5px 5px;
+  border-color: transparent transparent rgba(55, 64, 70, 0.9) transparent;
+  transform-origin: bottom;
+}
+
+/* SCROLLBARS */
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  /* background-color: #e4e4e4; */
+  /* border-radius: 100px; */
+  background-color: rgba(255,255,255,.2);
+}
+
+::-webkit-scrollbar-thumb {
+  /* border-radius: 50px; */
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: var(--clair);
+}
+/* Pour Firefox */
+.scroller{
+  overflow-y: auto;
+  scrollbar-color: rgba(255,255,255,.2) var(--clair);
+  scrollbar-width: thin;
+}
