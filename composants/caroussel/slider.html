@@ -1,0 +1,21 @@
+<button (click)="pagination(-1)" class="prev"> < </button>
+<section #slider>
+  <!-- <div #slider> -->
+    <article *ngFor="let slide of slides" [style.backgroundImage]="'url('+slide.img+')'">
+      <div [class]="slide.bgColor">
+          <h3>{{ slide.title }}</h3>
+          <h5>{{ slide.text | slice: 1:120 }}...</h5>
+
+          <button href="https://www.step.eco/" target="_blank">
+            voir plus
+          </button>
+      </div>
+      <div>
+        <img class="carousel-corner" [src]="slide.cornerImg" [alt]="slide.title" />
+        <!-- <img class="carousel-img" [src]="slide.img" [alt]="slide.title"/> -->
+      </div>
+
+    </article>
+  <!-- </div> -->
+</section>
+<button (click)="pagination(1)" class="prev"> > </button>

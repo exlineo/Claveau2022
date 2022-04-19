@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Déploiement : https://amp.d3ssedv24sj1ia.amplifyapp.com/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=no">
+    <link rel="apple-touch-icon" href="images/exlineo-touch.png" />
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- <meta name="viewport" content="user-scalable=no"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;900&display=swap" rel="stylesheet">
+    <link href="css/exlineo.css" rel="stylesheet">
+    <link href="css/exlineo-mobile.css" rel="stylesheet">
+    <title>exlineo || L'expression scientifique</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.39.0/tsparticles.min.js"></script>
+    <script defer src="js/utils/showdown.min.js"></script>
+    <script defer src="composants/index.js" type="module"></script>
+    <script defer src="js/classes/Init.js" type="module"></script>
+    <script defer data-domain-id="21cedc35fe997c6f7ab22b96252739fc9061df45" src="https://fairdatacenter.de/cdn/fair.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <section class="logo">
+            <a href="/" title="exlineo || L'expression scientifique"><img src="images/Logo_exlineo_v_blanc.png"
+                    alt="Logo exlineo" title="exlineo || L'expression scientifique" /></a>
+        </section>
+        <section class="menu">
+            <input checked="checked" class="menu-toggler" type="checkbox">
+            <label for="menu-toggler"></label>
+            <ul>
+                <li class="menu-item" data-index="exlineo">
+                    <a title="exlineo || L'expression scientifique" data-tooltip data-tooltip-location="left"
+                        href="#exlineo">
+                        <span class="material-icons">chair</span>
+                        <!-- <label>exlineo</label> -->
+                    </a>
+                </li>
+                <li class="menu-item" data-index="valeurs">
+                    <a href="#valeurs" title="Nos valeurs" data-tooltip-location="left" data-tooltip>
+                        <span class="material-icons">nature_people</span>
+                        <!-- <label>Valeurs</label> -->
+                    </a>
+                </li>
+                <li class="menu-item" data-index="prestations">
+                    <a href="#prestations" title="Prestations" data-tooltip data-tooltip-location="right">
+                        <span class="material-icons">account_tree</span>
+                        <!-- <label>Prestations</label> -->
+                    </a>
+                </li>
+                <li class="menu-item" data-index="projets">
+                    <a href="#projets" title="Nos projets" data-tooltip data-tooltip-location="right">
+                        <span class="material-icons">view_quilt</span>
+                        <!-- <label>Projets</label> -->
+                    </a>
+                </li>
+                <li class="menu-item" data-index="references">
+                    <a href="#references" title="Références" data-tooltip data-tooltip-location="right">
+                        <span class="material-icons">group_work</span>
+                        <!-- <label>Références</label> -->
+                    </a>
+                </li>
+                <li class="menu-item" data-index="contact">
+                    <a href="#contact" title="Equipe & contacts" data-tooltip data-tooltip-location="left">
+                        <span class="material-icons">question_answer</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="pied">
+            <nav>
+                <a href="#mentions" data-index="mentions" title="Mentions légales" data-tooltip><span
+                        class="material-icons">gavel</span></a>
+                <a href="#rgpd" data-index="rgpd" title="Protection des données personnelles" data-tooltip><span
+                        class="material-icons">policy</span></a>
+                <a href="#contact" data-index="contact" title="Contact" data-tooltip><span
+                        class="material-icons">contact_mail</span></a>
+                <a href="#mentions" data-index="mentions" title="Copyright" data-tooltip><span
+                        class="material-icons">copyright</span></a>
+            </nav>
+        </section>
+        <section class="mobile">
+            <nav>
+                <a title="Bug bug burger" class="burger"><span class="material-icons">menu_open</span></a>
+            </nav>
+            <ul>
+                <li data-index="exlineo">
+                    <a title="exlineo || L'expression scientifique" data-tooltip data-tooltip-location="left"
+                        href="#exlineo">
+                        <span class="material-icons">chair</span>
+                        exlineo
+                    </a>
+                </li>
+                <li data-index="valeurs">
+                    <a href="#valeurs" title="Nos valeurs" data-tooltip-location="left" data-tooltip>
+                        <span class="material-icons">nature_people</span>
+                        Nos valeurs
+                    </a>
+                </li>
+                <li data-index="prestations">
+                    <a href="#prestations" title="Prestations" data-tooltip data-tooltip-location="right">
+                        <span class="material-icons">account_tree</span>
+                        Services & prestations
+                    </a>
+                </li>
+                <li data-index="projets">
+                    <a href="#projets" title="Nos projets" data-tooltip data-tooltip-location="right">
+                        <span class="material-icons">view_quilt</span>
+                        Produits & projets
+                    </a>
+                </li>
+                <li data-index="references">
+                    <a href="#references" title="Références" data-tooltip data-tooltip-location="right">
+                        <span class="material-icons">group_work</span>
+                        Références
+                    </a>
+                </li>
+                <li data-index="contact">
+                    <a href="#contact" title="Equipe & contacts" data-tooltip data-tooltip-location="left">
+                        <span class="material-icons">question_answer</span>
+                        Nous contacter
+                    </a>
+                </li>
+                <li data-index="mentions"><a href="#mentions" title="Mentions légales" data-tooltip><span
+                            class="material-icons">gavel</span>Mentions légales</a></li>
+                <li data-index="mentions"><a href="#mentions" title="Protection des données personnelles"
+                        data-tooltip><span class="material-icons">policy</span>RGPD</a></li>
+                <li data-index="mentions"><a href="#mentions" title="Copyright" data-tooltip><span
+                            class="material-icons">copyright</span>Copyright</a></li>
+            </ul>
+        </section>
+    </nav>
+    <!-- CONTENU -->
+    <div>
+        <main>
+            <section id="exlineo" class="bleuazur">
+            </section>
+            <section id="philosophie" class="orangejaune">
+            </section>
+            <section id="prestations" class="bleubleuclair">
+            </section>
+            <section id="valeurs" class="pourprerouge">
+            </section>
+        </main>
+        <main>
+            <section id="projets" class="saumon">
+            </section>
+            <section id="references" class="rougeorange">
+            </section>
+        </main>
+        <main>
+            <section id="contact" class="bleuvert">
+            </section>
+            <section id="rgpd" class="bleubleuclair">
+            </section>
+            <section id="mentions" class="orangejaune">
+            </section>
+        </main>
+    </div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+</body>
+
+</html>

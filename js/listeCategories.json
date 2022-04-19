@@ -1,0 +1,962 @@
+[
+    {
+        "accroche": "Profitez de l'expérience d'experts",
+        "alias": "prestations",
+        "id": "4bbf9e1e-3492-4cc6-9695-acfa783aa6c7",
+        "image": null,
+        "lien": null,
+        "titre": "Services & prestations",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": null,
+                    "alias": "design",
+                    "categorieID": "4bbf9e1e-3492-4cc6-9695-acfa783aa6c7",
+                    "annee": null,
+                    "contenu": "Nos partenaires réalisent votre identité visuelle et le design de vos outils de communication : logo, charte graphique, plaquettes, affiches, kakemonos...",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "243fb47e-aa75-4f2c-a636-5c218a5bfc62",
+                    "titre": "Design & identité",
+                    "updatedAt": "2022-01-24T20:56:16.987Z",
+                    "createdAt": "2022-01-24T20:52:52.318Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": "seriousgames-expositions",
+                    "categorieID": "4bbf9e1e-3492-4cc6-9695-acfa783aa6c7",
+                    "annee": null,
+                    "contenu": "La ludification (gamification) est un moyen riche de donner corps à des sujets techniques ou scientifiques qui touchent le grand public. Nous  sommes spécialisés dans la réalisation d’expositions numériques, de la problématisation à la réalisation.\nDepuis plus de quinze ans, nous développons des solutions de sensibilisation pour le grand public, les jeunes ou le tourisme culturel basées sur des jeux sérieux. Notre approche permet une prise en compte des contextes et une mise en valeur des savoirs d'une manière sensible et ludique. Nous avons crée, porté ou collaborer à des projets sur :\n- Le tourisme culturel\n- L'énergie\n- L'histoire\n- l'environnement et le développement durable\n- la consommation durable\n- la biodiversité\n- l'industrie  ",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "4c0cbdfc-c03a-4baa-a8b7-9660a83e2d83",
+                    "titre": "Jeux sérieux & expositions",
+                    "updatedAt": "2022-01-24T22:04:46.550Z",
+                    "createdAt": "2022-01-24T20:54:35.283Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Identité, stratégie, objectifs, donnez du corps à votre communication.",
+                    "alias": "communication",
+                    "categorieID": "4bbf9e1e-3492-4cc6-9695-acfa783aa6c7",
+                    "annee": null,
+                    "contenu": "La définition de votre stratégie de communication se composera en services :\n- Audit\n- Analyse de l'existant\n- Evaluation des besoins\n- Evaluation de la concurrence\n- Définition d'objectifs généraux\n- Définition d'objectifs de communication\n- Définition des cibles\n- Plan média",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Nos actions s’ancrent dans une démarche de communication basée sur une méthode et des outils. Notre expertise, construite pendant des dizaines d’années, assure une vision large des problèmes et une capacité à intégrer des problématiques techniques, scientifiques ou d’innovation complexes.",
+                    "picto": null,
+                    "id": "78113c3f-2659-4945-993d-1a4feb7935f1",
+                    "titre": "Stratégies de communication",
+                    "updatedAt": "2022-01-24T13:26:30.378Z",
+                    "createdAt": "2021-12-28T14:49:22.142Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": "developpement",
+                    "categorieID": "4bbf9e1e-3492-4cc6-9695-acfa783aa6c7",
+                    "annee": null,
+                    "contenu": "Nous maîtrisons les arcanes du Web et de ses développements. Notre expertise couvre la programmation informatique. Toujours à la recherche des solutions les plus performantes, nous opérons une veille quotidienne.  \nNotre offre comprend les solutions Cloud (AWS, GPC) et asynchrones avancées. Dans notre escarcelle vous trouverez :\n- sites Internet\n- applications Web\n- newsletters\n- ...",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "31ddf620-3872-4c99-b92a-17ca3323148d",
+                    "titre": "Développement & programmation Web",
+                    "updatedAt": "2022-01-24T20:56:17.297Z",
+                    "createdAt": "2022-01-24T20:53:56.078Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": "valeur-savoirs",
+                    "categorieID": "4bbf9e1e-3492-4cc6-9695-acfa783aa6c7",
+                    "annee": null,
+                    "contenu": "Le coeur de votre message porte ce qui devra toucher vos interlocuteurs. Clarifier, simplifier, expliquer sont nos coeurs de métier et ça commence dans les rédactionnels et les outils de communication. Nous travaillons sur vos outils de communication imprimés et numériques.",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "ed3b9cf1-ea54-405d-ab26-4bdae0c866f7",
+                    "titre": "Rédactionnels & outils de communication",
+                    "updatedAt": "2022-01-24T22:04:09.056Z",
+                    "createdAt": "2022-01-24T20:52:22.122Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": "- [Stratégies de communication](#communication)\n- [Rédactionnels & outils de communication](#valeur-savoirs)\n- [Design & identité](#design)\n- [Développement & programmation Web](#developpement)\n- [Jeux sérieux & expositions](#seriousgames-expositions)",
+        "createdAt": "2021-11-26T12:06:16.970Z",
+        "updatedAt": "2022-02-28T19:05:46.585Z",
+        "categorieMiseEnPageId": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+        "MiseEnPage": {
+            "id": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+            "type": "CustomBlog",
+            "description": "Les articles sont montrés à droite, la catégorie détaillée sur la gauche",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": "Protection des données personnelles",
+        "alias": "rgpd",
+        "id": "a45b120b-98dd-48e3-beb8-c81df485d2b1",
+        "image": null,
+        "lien": null,
+        "titre": "RGPD",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": "Utilisation de Fair Analytics",
+                    "alias": "rgpd",
+                    "categorieID": "a45b120b-98dd-48e3-beb8-c81df485d2b1",
+                    "annee": null,
+                    "contenu": "### Objectifs et base légale\nLe service de suivi statistique Fair Analytics est utilisé sur notre site Internet. Aucun cookies n’est créé dans le processus et aucun autre dans aucun autre processus. Néanmoins, Fair Analytics prend en compte l’adresse IP, le type de matériel et de navigateur des visiteurs. (: type de matériel, système d’exploitation, résolution d’écran et la ‘time zone’ du visiteur). D’autres informations sont collectées durant la navigation par exemple : les pages visitées, le temps passé dessus, la position du scroll et les clics de souris. Sur cette base, un profil anonyme est créé. Son adresse IP n’est pas stockée de manière permanente.    \nLe service a pour vocation de collecter des informations sur l’utilisation du site Internet pour l’adapter et améliorer la qualité de ses services en lien avec les intérêts des Internautes.  \nTout recueil de données personnelles doit recueillir votre consentement, conformément à l’[article 6, paragraphe 1, EU RGPD ‘Licéité du traitement’](https://www.privacy-regulation.eu/fr/6.htm).\n### Récipiendaire des données\nLe récipiendaire des données est [Fair Analytics, Kolb & Neuhauser GbR](https://www.fairanalytics.de), avec lequel nous avons un accord pour ce traitement sur les données.\n### Durée de stockage\nLes données seront stockées conformément à la loi européenne et conformément aux consentements recueillis lorsque nécessaire.\n### Transfert vers un pays tiers\nLes données sont conservées dans l’Union Européenne, sous l’égide de la loi RGPD qui protège vos données personnelles. Les données recueillies (personnelles ou anonymes) ne seront ni vendues, ni échangées auprès de quelconque service ou organisme.",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "94e627cc-180a-46fd-828e-ebcd9f6d5416",
+                    "titre": "RGPD",
+                    "updatedAt": "2022-02-06T22:13:38.490Z",
+                    "createdAt": "2022-02-06T22:13:23.259Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": null,
+        "createdAt": "2022-02-06T22:01:20.581Z",
+        "updatedAt": "2022-02-06T22:02:33.416Z",
+        "categorieMiseEnPageId": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+        "MiseEnPage": {
+            "id": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+            "type": "CustomBlog",
+            "description": "Les articles sont montrés à droite, la catégorie détaillée sur la gauche",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": "L'expression scientifique",
+        "alias": "exlineo",
+        "id": "87d4509e-f2a7-4b51-aa22-32992d47775c",
+        "image": null,
+        "lien": null,
+        "titre": "exlineo",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": null,
+                    "alias": "agence-conseil",
+                    "categorieID": "87d4509e-f2a7-4b51-aa22-32992d47775c",
+                    "annee": null,
+                    "contenu": "Depuis 2003, exlineo accompagne ses clients dans la réalisation de leur communication technique et scientifique, la mise en valeur du savoir et de la connaissance culturelle et scientifique. Notre approche intègre une démarche de communication globale incluant le conseil à la réalisation des outils papier ou numérique.\n\nSpécialisés dans la communication notre agence a développé une compétence dans la compréhension des problématiques techniques et scientifiques. Notre approche permet la communication de procédés complexes vers des publics de non initiés. Nous concevons des stratégies de communication et les outils les mieux adaptés à la mise en valeur des savoirs.",
+                    "imageA": "./images/pages/cerveau.png",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "cb05cb2c-7bf9-4a40-8981-6eac21c9ea31",
+                    "titre": "Agence conseil en communication scientifique et valorisation des savoir",
+                    "updatedAt": "2022-01-27T18:21:50.425Z",
+                    "createdAt": "2022-01-27T18:20:43.014Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": null,
+        "createdAt": "2022-01-27T18:17:36.344Z",
+        "updatedAt": "2022-01-27T18:17:36.344Z",
+        "categorieMiseEnPageId": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+        "MiseEnPage": {
+            "id": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+            "type": "CustomBlog",
+            "description": "Les articles sont montrés à droite, la catégorie détaillée sur la gauche",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": "& Copyrights",
+        "alias": "mentions",
+        "id": "ae47d569-42c1-482d-8066-d5136234d77e",
+        "image": null,
+        "lien": null,
+        "titre": "Mentions légales",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": null,
+                    "alias": "mentions-legales",
+                    "categorieID": "ae47d569-42c1-482d-8066-d5136234d77e",
+                    "annee": null,
+                    "contenu": "Merci de lire avec attention les différentes modalités d’utilisation du présent site avant d’y parcourir ses pages. En vous connectant sur ce site, vous acceptez sans réserves les présentes modalités. Aussi, conformément à l’article n°6 de la Loi n°2004-575 du 21 Juin 2004 pour la confiance dans l’économie numérique, les responsables du présent site internet [exlineo.com](http://www.exlineo.com) sont :\n## Editeur du Site\nEXLINEO  \nNuméro de SIRET : 529 200 784  \nResponsable éditorial : M. Gérald Abbadie\n## Hébergeur\nOVH, 2 rue Kellermann - 59100 Roubaix  \nSite Web : [ovh.com](www.ovh.com)\n## Conditions d’utilisation\nCe site ([exlineo.com](http://www.exlineo.com)) est proposé en différents langages web (HTML, HTML5, Javascript, CSS, etc…) pour un meilleur confort d'utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Internet explorer, Safari, Firefox, Google Chrome, etc… EXLINEO met en œuvre tous les moyens dont elle dispose, pour assurer une information fiable et une mise à jour fiable de ses sites Internet. Toutefois, des erreurs ou omissions peuvent survenir. L'internaute devra donc s'assurer de l'exactitude des informations auprès de M. Abbadie et signaler toutes modifications du site qu'il jugerait utile. L’éditeur du site n'est en aucun cas responsable de l'utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.  \n**Cookies **: un cookies est une information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations . Ce site Internet n’en fait pas usage. Pas d’inquiétudes.  \n**Liens hypertextes** : les sites internet peuvent offrir des liens vers d’autres sites internet ou d’autres ressources. EXLINEO ne dispose d'aucun moyen pour contrôler les sites vers lesquels des liens sont créés et ne répond pas de la disponibilité de tels sites et sources externes. La société ne peut être tenue pour responsable de tout dommage, de quelque nature que ce soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits ou services qu’ils proposent, ou de tout usage qui peut être fait de ces éléments. Les risques liés à cette utilisation incombent pleinement à l'internaute ainsi qu’à l’éditeur des dits sites. Ils doivent se conformer à leurs conditions d'utilisation.  \nServices##  fournis\nL'ensemble des activités de la société ainsi que ses informations sont présentés sur notre site [exlineo.com](http://www.exlineo.com).  \nEXLINEO s’efforce de fournir sur le site [exlineo.com](http://www.exlineo.com) des informations aussi précises que possible. les renseignements figurant sur le site [exlineo.com](http://www.exlineo.com) ne sont pas exhaustifs et les photos non contractuelles. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne. Par ailleurs, toutes les informations indiquées sur le site [exlineo.com](http://www.exlineo.com) sont données à titre indicatif, et sont susceptibles de changer ou d’évoluer sans préavis.  \n## Limitation contractuelles sur les données\nLes informations contenues sur ce site sont aussi précises que possible et le site remis à jour à différentes périodes de l’année, mais peut toutefois contenir des inexactitudes ou des omissions. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par email en utilisant le formulaire de contact, en décrivant le problème de la manière la plus précise possible (page posant problème, type d’ordinateur et de navigateur utilisé, …). Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. En conséquence, ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour. Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de EXLINEO.\n## Propriété intellectuelle\nTout le contenu du présent sur le site [exlineo.com](http://www.exlineo.com), incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de la société à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs. Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de EXLINEO. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des contenus copiés pourraient intenter une action en justice à votre encontre.\nDéclaration à la CNIL\nConformément à la loi 78-17 du 6 janvier 1978 (modifiée par la loi 2004-801 du 6 août 2004 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel) relative à l'informatique, aux fichiers et aux libertés, ce site n'a pas fait l'objet d'une déclaration auprès de la Commission nationale de l'informatique et des libertés - [CNIL](www.cnil.fr).\n## Litiges\nLes présentes conditions du site [exlineo.com](http://www.exlineo.com) sont régies par les lois françaises et toute contestation ou litiges qui pourraient naître de l'interprétation ou de l'exécution de celles-ci seront de la compétence exclusive des tribunaux dont dépend le siège social de la société. La langue de référence, pour le règlement de contentieux éventuels, est le français.",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "0a4dc318-679e-4f8f-8b5f-f1194612a0b0",
+                    "titre": "Mentions légales",
+                    "updatedAt": "2022-02-10T22:12:57.954Z",
+                    "createdAt": "2022-02-06T22:10:31.105Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": null,
+        "createdAt": "2022-02-06T22:02:25.432Z",
+        "updatedAt": "2022-02-06T22:33:50.067Z",
+        "categorieMiseEnPageId": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+        "MiseEnPage": {
+            "id": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+            "type": "CustomBlog",
+            "description": "Les articles sont montrés à droite, la catégorie détaillée sur la gauche",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": "Des personnes et un réseau pluridisciplinaire à votre service",
+        "alias": "contact",
+        "id": "82e03e3a-9c37-4236-821e-f010d3b419bf",
+        "image": null,
+        "lien": null,
+        "titre": "Contact",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": null,
+                    "alias": "equipe-reseau",
+                    "categorieID": "82e03e3a-9c37-4236-821e-f010d3b419bf",
+                    "annee": null,
+                    "contenu": "exlineo travaille en réseau  et comprend :\n- graphistes,\n- photographe,\n- développeurs,\n- rédactrice,\n- Web marketeurs et community managers\n\nIls sont animés et coordonés par [Gérald Abbadie](./images/GABB-CV_2022.pdf), votre serviteur, conseil en communication et chef de projet, expert européen.",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "3c2174eb-4eec-4687-8057-5748f362f6d2",
+                    "titre": "Une équipe en réseau",
+                    "updatedAt": "2022-01-27T09:32:40.621Z",
+                    "createdAt": "2022-01-27T09:32:09.703Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": "nous-contacter",
+                    "categorieID": "82e03e3a-9c37-4236-821e-f010d3b419bf",
+                    "annee": null,
+                    "contenu": "### exlineo\n9 Place Gramont  64000 PAU\n- +33 (0)9 51 25 01 55\n- +33 (0)6 17 18 13 91\n- [nous contacter par email](mailto:Y29udGFjdEBleGxpbmVvLmNvbT9zdWJqZWN0PVtleGxpbmVvLmNvbV0gRGVtYW5kZSBkJ2luZm9ybWF0aW9u)",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "7bbee2f5-d09f-4d16-b61c-4bfcc5e1c8f2",
+                    "titre": "Prendre contact",
+                    "updatedAt": "2022-02-06T11:34:49.739Z",
+                    "createdAt": "2021-12-28T15:14:06.225Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": null,
+        "createdAt": "2021-12-28T15:14:06.697Z",
+        "updatedAt": "2022-01-27T09:32:40.315Z",
+        "categorieMiseEnPageId": "d403a9a0-763f-4539-9e93-ccddb8278ba1",
+        "MiseEnPage": {
+            "id": "d403a9a0-763f-4539-9e93-ccddb8278ba1",
+            "type": "CustomContact",
+            "description": "Créer une mise en page avec un formulaire de contact",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": null,
+        "alias": "references",
+        "id": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+        "image": null,
+        "lien": null,
+        "titre": "Références",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": "VInCi, prédictions économiques dans la vin",
+                    "alias": "vinci-predictions",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2022,
+                    "contenu": "Ce développement intervient dans le cadre du projet européen VInCI SUDOE, sur les prédictions de rendements dans le vin et l'aide à l'export. Il offre aux professionnels du vin une solution pour améliorer leurs ventes et productions en bénéficiant de travaux statistiques basés sur des outils de la recherche publique et privée.  \n\nLes développements s'attachent à une optimisation technique pour diminuer les imapcts écologiques à chaque étape de la conception et de la production. Ils sont basées sur le framework Angular connecté aux outils du Cloud de Firebase.",
+                    "imageA": "./images/references/vinci/vinci-logiciel.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "7ccefcc2-0465-4a9d-ae90-62a02f7cc8bc",
+                    "titre": "Logiciel de prédictions",
+                    "updatedAt": "2022-02-28T20:03:04.033Z",
+                    "createdAt": "2022-02-28T20:00:12.199Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Site Internet écoconçu",
+                    "alias": "vincisudoe",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2021,
+                    "contenu": "Le projet fédère des acteurs européens dans la zone Sudoe pour produire et mettre à disposition des études et éléments prédictifs en faveur des professionnels du vin, viti et viniculteurs.\n  \nNous avons réalisé le logo et le site Internet. Ce dernier, écoconçu, a été pensé pour diminuer au mieux ses impacts écologiques :\n- les échanges de données sont faites en Ajax ;\n- le développement, à façon, n'utilise pas de framework gourmand ou surdimensionné (cf. Wordpress ?!) ;\n- l'hébergement est mutualisé.",
+                    "imageA": "./images/references/vinci/vinci.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Communication pour un projet européen sur l'économie du vin",
+                    "picto": null,
+                    "id": "1d042e98-b9f5-4267-b1f7-4df66ae1681b",
+                    "titre": "Vinci Sudoe",
+                    "updatedAt": "2022-01-27T12:56:33.662Z",
+                    "createdAt": "2022-01-27T12:11:40.903Z",
+                    "_deleted": null,
+                    "lien": "http://vincisudoe.eu/",
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Un jeu sérieux pour un tourisme culturel innovant",
+                    "alias": "cinquecento",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2016,
+                    "contenu": "Accompagné par un comité scientifique d'experts, le projet a reçu le soutien des cultures connectées de la Région Aquitaine.\nIl est le fruit d'une collaboration entre M. Paucot (Adera), Epys et exlineo.\n\nDéveloppement :\n- Technologie Unity 3D (moteur de jeu vidéo)\n- Modélisation 3D\n- Jeux de caméras\n- Multilangues français / anglais\n- Paramétrages dynamiques (XML)",
+                    "imageA": "./images/references/cinquecento/document.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Les 150 000 touristes annuels de Navarrenx pourront parcourir la cité qu'ils visitent dans sa réalité du XVIè siècle grâce à sa reconstitution en 3D temps réel.",
+                    "picto": null,
+                    "id": "6e813139-5347-4fdd-935e-a63c816c9e99",
+                    "titre": "Cinquecento, Navarrenx au XVIè siècle",
+                    "updatedAt": "2022-01-27T12:55:44.399Z",
+                    "createdAt": "2022-01-26T10:08:06.759Z",
+                    "_deleted": null,
+                    "lien": "https://cinquecento.exlineo.com/",
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Bureau d'ingénierie en environnement",
+                    "alias": "site-apesa",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2014,
+                    "contenu": "Le site Internet xrafraïchi couvrait de nouveaux objectifs de communication, d'organisation ou de sensibilisation autour de ses activités d'ingénierie remises en valeur, ses actions de mécénat ou d'accompagnement d'initiatives responsables et durables, de sensibilisation.\n\nQuelques données sur le site :\n- développement Joomla ;\n- e-biblio (gestionnaire de publications) ;\n- actualités et vie de l'association (Twitter) ;\n- Infographies ;",
+                    "imageA": "./images/references/apesa/apesa_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "exlineo a accompagné l'APESA pendant près de 15 ans dans sa communication : son positionnement, la définition de l'image, sa stratégie et la réalisation d'outils pour le bureau et ses partenaires.",
+                    "picto": null,
+                    "id": "27f27c2e-d3e7-4126-ae56-445f522cc30a",
+                    "titre": "Site Internet de l'APESA",
+                    "updatedAt": "2022-01-27T17:26:38.256Z",
+                    "createdAt": "2022-01-27T17:26:11.751Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Supermarché numérique",
+                    "alias": null,
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2014,
+                    "contenu": "Chaque acte d'achat induit des impacts écologiques. Si la qualité nutritionnelle des produits est connue, leur impact écologique l'est moins. L'O2 Market vous offre 5 défis. Parcourez le supermarché virtuel et faites vos courses Vos impacts écologiques de vos modes de consommation vous serons donnés.\n\nDéveloppement :\n- caisses avec scan de produits ;\n- debreifing collectif sur écran géant ;\n- version web complète ;\n- gestion de bases de données ;\n- paramétrages dynamiques (XML).",
+                    "imageA": "./images/references/o2market/o2market_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "496b3479-0b3e-4a96-9938-76695e88a41b",
+                    "titre": "O2Market (Cap Sciences)",
+                    "updatedAt": "2022-01-27T18:00:22.876Z",
+                    "createdAt": "2022-01-27T18:00:22.876Z",
+                    "_deleted": null,
+                    "lien": "https://www.cap-sciences.net/vous-etes/espace-professionnels/ressources-itinerantes/o2-market.html",
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Culture et langue régionale",
+                    "alias": "troubadours-aquitaine",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2013,
+                    "contenu": "L'Institut Occitan travaille à la valorisation de la langue et de la culture vivante occitane.Un exercice singulier orienté vers la mise en forme et un travail graphique abouti. Cette réalisation a été menée en collaboration avec la société Hybrid Edition.\n\nQuelques données sur le site :\n- travail graphique abouti\n- développement Joomla\n- site multi-langues français / occitan",
+                    "imageA": "./images/references/troubadours/troubadour_460.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "a0a73ce5-a347-4bcf-a446-e75aa70da998",
+                    "titre": "Troubadours d'Aquitaine",
+                    "updatedAt": "2022-01-27T17:47:06.332Z",
+                    "createdAt": "2022-01-27T17:47:06.332Z",
+                    "_deleted": null,
+                    "lien": "http://trobar-aquitaine.org/fr/",
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Communication sur un projet de recherche européen",
+                    "alias": "orque-sudoe",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2013,
+                    "contenu": "Le projet Orque Sudoe a fédéré des laboratoires de recherche en analyse chimique du sud-ouest européen : Espagne, France, Portugale. Il visa plusieurs objectifs scientifiques :\n- mobiliser les acteurs de la recherche,\n- développer des méthodes fiables d'analyse,\n- évaluer la qualité chimique des littoraux au-travers des mollusques,\n- créer des matériaux de référence pour offrir une base d'analyse stable au niveau européen,\n- sensibiliser la société civile.\n\nexlineo a réalisé l'ensemble des outils de communication du projet : logo, plaquette, site Internet...\n\nQuelques données sur le site, outil à la fois de communication et d'organisation pour le projet :\n\n- développement basé sur Joomla,\n- gestion de comptes et espaces sécurisés,\n- module de cartographie des échantillonnages,\n- organisation et valorisation d'événenements du projet,\n- Infographies.",
+                    "imageA": "./images/references/orque_sudoe/orque_sudoe_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "5433b5c2-1b85-42a6-b5f4-6062b8edb6d0",
+                    "titre": "Orque Sudoe (UPPA / IPREM)",
+                    "updatedAt": "2022-01-27T13:16:48.290Z",
+                    "createdAt": "2022-01-27T10:41:53.036Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": "simulateur-pluies",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2013,
+                    "contenu": "Le projet consistait à recréer un simulateur mettant en scène les situations dramatiques dans les pluies qui s'abattent sur l'agglomération bordelaise et des actions et infrastructures permettant de les gérer 'sereinement'.\n  \nPour cette prestation nous avons réalisé :\nla conception générale ;\nle game design ;\nle design ;\nla programmation ;\n...\n\nL'interactif comprenait une organisation multi-écrans interconnectés en temps réel à un gestionnaire d'événements contrôlé par un animateur.",
+                    "imageA": "./images/references/simulateur/simulateur_expo_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Un jeux sérieux réalisé en collaboration avec Cap Sciences pour le gestionnaire de la régie des eaux bordelaises.",
+                    "picto": null,
+                    "id": "961730db-4d4f-4983-a03c-1405d0765b04",
+                    "titre": "Simulateur d'eaux pluviales (Cap Sciences)",
+                    "updatedAt": "2022-01-27T19:11:40.487Z",
+                    "createdAt": "2022-01-27T19:11:40.487Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Outils multimédia de e-learning",
+                    "alias": "achats-responsables",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2012,
+                    "contenu": "Les commerciaux sont emmenés dans un parcours leur permettant de découvrir les différents angles de l'achat responsable. Il fournit des solutions pratiques pour sensibiliser les acheteurs à ces questions mais aussi pour construire un dossier d'appel d'offre intégrant les problématiques responsables.\n\nQuelques données sur le module :\n- présenté sous forme de livres ;\n- plus de 50 pages et 4 quiz ;\n- accès par étape aux différents parcours ;\n- inscription et suivi des parcours en ligne validé comme module de formation ;\n- sécurisation des données ;\n- accès hiérarchisés.",
+                    "imageA": "./images/references/achats_responsables/achats_460.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "La fédération des papetiers et l'APESA ont formé les commerciaux des membres de la fédération à la plus-value des achats responsables avec 'un module de e-learning multimédia.",
+                    "picto": null,
+                    "id": "4ac9f3b1-f351-44df-b955-1c8c37193868",
+                    "titre": "Achats responsables",
+                    "updatedAt": "2022-01-27T17:32:43.072Z",
+                    "createdAt": "2022-01-27T17:17:53.065Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": null,
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2012,
+                    "contenu": "Le système double écrans (aquarium + moniteur) est couplé à des systèmes électroniques gérant l'injection des polluants. La population des poissons croît ou décroît ainsi que la santé des animaux.\n\nQuelques données sur les développements :\n\ndoubles écrans tactiles ;\ngestion par boutons électroniques pour les interactions homme/machine ;\n3D temps réel ;",
+                    "imageA": "./images/references/aquarium/aquarium_460.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Dans le cadre d'une exposition sur le traitement des eaux pluviales, nous avons développé un aquarium numérique interactif permettant de visualiser l'impact des polluants dans les eaux de la Garonne.",
+                    "picto": null,
+                    "id": "c4534a93-31a2-47d5-9004-cb8273a266c8",
+                    "titre": "Aquarium numérique (Cap Sciences)",
+                    "updatedAt": "2022-01-27T16:33:47.708Z",
+                    "createdAt": "2022-01-27T16:31:14.911Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Les impacts de produits",
+                    "alias": "bureau-etude",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2012,
+                    "contenu": "L'animateur synthétise les différents choix, compare et explique sur un écran central regroupant les différents téléphones.\n\nQuelques données sur le module :\n- le game design ;\n- développements sur bornes interactives tactiles ;\n- 4 groupes de joueurs en temps réel ;\n- vidéo projection des résultats pour un debriefing ;\n- connexion des données en temps réel et sur une base de données.",
+                    "imageA": "./images/references/bureau_etude/be_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Autour des achats responsables, ce jeu sérieux multi-joueurs met en scène un bureau d'étude concevant des téléphones mobiles. Les participants sont confrontés aux problèmes d'un ingénieur en choisissant matériaux, fournisseurs ou composant pour créer leur propre téléphone portable. Chaque choix engage des impacts écologique. Choisissez les meilleurs composants pour créer le téléphone le moins impactant.",
+                    "picto": null,
+                    "id": "6b3db417-eeb3-412d-9729-ac44fc008a63",
+                    "titre": "Bureau d'étude (Cap Sciences)",
+                    "updatedAt": "2022-01-27T19:05:45.135Z",
+                    "createdAt": "2022-01-27T18:57:44.324Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Expliquer les actions sur l'environnement",
+                    "alias": "biodiversite-terega",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2011,
+                    "contenu": "Jeu sur tablette réalisé dans le cadre d'une exposition TIGF (actuellement Terega) sur la sécurisation écologique de ses activités de stockage et le transport du gaz.\n\nCe jeu permet d'entrer dans la diversité de la biodiversité dans nos rivières par des manipulations. Sont mis en exergues les actions sur la faune et la flore locale.",
+                    "imageA": "./images/references/terega/tigf_720.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "bcef9451-710e-4476-9410-633edb90a3e7",
+                    "titre": "Jeu de la biodiversité",
+                    "updatedAt": "2022-01-27T17:38:40.370Z",
+                    "createdAt": "2022-01-27T17:38:40.370Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Expliquer un fonctionnement industriel",
+                    "alias": "terega-stockage",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2011,
+                    "contenu": "Le stockage du gaz de Lussagnet, opéré par TIGF, est soumis à de fortes variations saisonnières : stockage, déstockage.\n\nPour illustrer cette gestion, nous avons développé une application sur tablette permettant de simuler les variations temporelles dans le cadre d'une exposition créée avec Lacq Odyssée.",
+                    "imageA": "./images/references/terega/tigf_tablettes_720.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "b020f01d-9bb3-4886-a420-3cb5009ae0de",
+                    "titre": "TIGF - Le stockage du gaz",
+                    "updatedAt": "2022-01-27T17:44:11.018Z",
+                    "createdAt": "2022-01-27T17:44:11.018Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Exposition interactive sur la consommation",
+                    "alias": "consom-attitude",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2010,
+                    "contenu": "Participation à l'élaboration d'une exposistion pour Cap Sciences avec la création de tous les interactifs du projet. La prestation a compris :\n\n- la conception et la gestion du projet ;\n- le game design ;\n- le design ;\n- la programmation ;\n- ...",
+                    "imageA": "./images/references/expo/consom/Consom_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "24757fba-1d60-4b55-8dae-c3980a8fbf37",
+                    "titre": "Consom'attitudes (Cap Sciences)",
+                    "updatedAt": "2022-01-27T18:51:58.876Z",
+                    "createdAt": "2022-01-27T18:51:58.876Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Site Internet, plaquettes, design",
+                    "alias": "citba",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2010,
+                    "contenu": "Dans le cadre de cette collaboration, exlineo a accompagné la société CITBA dans toute sa démarche de communication; du positionnement à la réalisation des outils.\n\nQuelques données sur cette prestation :\n- accompagnement sur la définition de l'image et le positionnement ;\n- rédaction des contenus ;\n- réalisation de la plaquette commerciale ;\n- créations graphiques ;\n- création du site Internet ;\n- gestion de l'hébergement.",
+                    "imageA": "./images/references/citba/citba_plaquette_1.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "La société CITBA est spécialisée dans la chaudronnerie industrielle, en particulier pour le secteur de l'eau et de l'énergie. Soumises à de fortes contraintes, ces canalisations sont le fruit de process industriels de haut niveau.",
+                    "picto": null,
+                    "id": "f503ffed-7f4d-456d-9081-ffa4b667c6cd",
+                    "titre": "Chaudronnerie industrielle (CITBA)",
+                    "updatedAt": "2022-01-27T17:56:31.890Z",
+                    "createdAt": "2022-01-27T17:56:19.713Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Communication pour des communicants",
+                    "alias": "mica",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2010,
+                    "contenu": "Le site Internet est un élément central dans sa communication. Il permet la valorisation des recherches et projets, des chercheurs et des étudiants. Il avait été salué par le comité d'évaluation AERES comme référence à suivre.\n\nQuelques données sur cette prestation :\n- rédactionnels\n- travail sur l'ergonomie et la lisibilité de données nombreuses et variées ;\n- outils variés de valorisation (multimédia, cartographie) ;\n- développement Joomla ;\n- gestion de publications ;\n- infographies.",
+                    "imageA": "./images/references/mica/mica_720.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Le MICA est un institut de recherche en sciences de l'Information et de la Communication de l'université Bordeaux 3. Acteur de son territoire, acteur réputé de la recherche en France et à l'étranger, le MICA se positionne en leader.",
+                    "picto": null,
+                    "id": "ea2b448f-3405-46d8-a6fb-c7fb1198c1d4",
+                    "titre": "MICA",
+                    "updatedAt": "2022-01-27T18:40:50.612Z",
+                    "createdAt": "2022-01-27T18:40:50.612Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Exposition dynamique et interactive",
+                    "alias": "num-votre",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2009,
+                    "contenu": "Réalisation des supports numériques de l'exposition 'Numérquement votre' créée par Cap Science. La prestation a compris :\n\n- le design ;\n- le game design ;\n- la programmation ;\n- gestion de vidéos ;\n- la gestion de projet ;\n- la prise en compte de l'expérience utilisateur.",
+                    "imageA": "./images/references/expo/num_votre/num_votre_3.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "63b1f400-9caa-491b-9362-e2167e6a01d5",
+                    "titre": "Numériquement votre (Cap Sciences)",
+                    "updatedAt": "2022-01-27T18:46:50.162Z",
+                    "createdAt": "2022-01-27T18:46:17.926Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Communication européenne",
+                    "alias": "btsf-aets",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2007,
+                    "contenu": "Le site Internet foodinfo-europe.com offre des services pour l'organisation de séminaires de formations en europe et dans le monde. Il est un outil d'organisation et de communication au services du programme européen sur les normes alimentaires et leur dissémination. Le site a été refond depuis.\n\nQuelques données sur cette prestation :\n- développement Joomla ;\n- organisation des données & ergonomie adpatée ;\n- ouitls d'organisation d'événements ;\n- infographie ;\n- site multi-langues français / anglais.",
+                    "imageA": "./images/references/btsf/btsf_2.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Au service de l'Union Européenne, AETS travaille sur des programmes européens. Better Training for Safer Food est un programme de l'UE visant à améliorer le respect des normes alimentaires en Europe et dans les pays exportateurs vers l'UE.",
+                    "picto": null,
+                    "id": "e88eafeb-b4aa-4695-9b28-829ee329fa69",
+                    "titre": "Better Training for Safer Food (AETS / EU)",
+                    "updatedAt": "2022-01-27T18:37:20.980Z",
+                    "createdAt": "2022-01-27T18:37:20.980Z",
+                    "_deleted": null,
+                    "lien": "https://foodinfo-europe.com",
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Une exposition en collaboration avec Lacq Odyssée",
+                    "alias": "expo-pyrenees",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": 2006,
+                    "contenu": "exlineo a réalisé plusieurs interactifs développés pour des bornes et alliant jeux, narrations, médias, cartes...\n\nQuelques données sur le module :\n- développements sur bornes interactives ;\n- intégration multimédia et production de voix-off ;\n- quiz interconnecté à une base de données ;\n- interactifs multi-langues français / espagnole.",
+                    "imageA": "./images/references/franchir_pyrenees/franchir_pyrenees_jeu.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Le CCSTI Lacq Odyssée crée des expositions sur des questions scientifiques liées au territoire sud aquitain. Dans cette création était mis en question le franchissement des Pyrénées dans l'histoire, hier et aujourd'hui.",
+                    "picto": null,
+                    "id": "456dd017-153c-49fd-9b94-f25153e3d362",
+                    "titre": "Franchir les Pyrénées",
+                    "updatedAt": "2022-01-27T17:35:47.407Z",
+                    "createdAt": "2022-01-27T17:35:27.794Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": null,
+                    "alias": "graphisme",
+                    "categorieID": "dcbd70f0-ce4f-40f4-a847-05331603869d",
+                    "annee": null,
+                    "contenu": "Ces réalisations graphiques ont été faites dans le cadre de projet européens pour accompagne et environner des colloques et conférences.\n\nLe design est inclu dans nos activités.",
+                    "imageA": "./images/references/graphisme/Eneco2_Kakemono.jpg",
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": null,
+                    "picto": null,
+                    "id": "cee94dd5-04bb-4dd1-af73-f6dfdda2cec3",
+                    "titre": "Exemples de réalisations graphiques",
+                    "updatedAt": "2022-01-27T16:33:47.966Z",
+                    "createdAt": "2022-01-27T16:33:24.449Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": "Quelques exemples de réalisations",
+        "createdAt": "2022-01-24T22:36:33.634Z",
+        "updatedAt": "2022-01-27T18:23:25.931Z",
+        "categorieMiseEnPageId": "380ed787-a95a-4b1e-85de-afa8444b2c64",
+        "MiseEnPage": {
+            "id": "380ed787-a95a-4b1e-85de-afa8444b2c64",
+            "type": "CustomPortfolio",
+            "description": "Créer un portfolio ou un mur d'article basé sur les images.",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": "Des projets responsables dans la culture, l'écologie et la solidarité",
+        "alias": "projets",
+        "id": "e6062345-e0f4-494d-b338-65eaf09a051b",
+        "image": null,
+        "lien": null,
+        "titre": "Projets & produits",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": "Communiquez dans vos projets scientifiques, faites appel à des experts.",
+                    "alias": "pack-europe",
+                    "categorieID": "e6062345-e0f4-494d-b338-65eaf09a051b",
+                    "annee": null,
+                    "contenu": "Notre expertise et notre réseau nous permettent de vous fournir l'ensemble des solutions dont vous aurez besoin pour vos projets européens :\n- vulgarisation,\n- rédactionnels,\n- identité,\n- outils numériques (sites Web, newsletters, réseaux sociaux),\n- affiches et kakemonos.\n  \nVoilà près de 20 ans que nous sommes au service de la communauté scientique et technique, de l'innovation. Notre compétence dépasse les questions des techniques de communication. Nous connaissons les organisations, la communauté de la recherche, nous savons évaluer des problématiques sociétales ou scientifiques dans ces enjeux de société, nous connaissons le cadre de communication de l'Union Européenne, ses obligations et ses enjeux.",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Notre agence fournit l'ensemble des services de communication pour vos projets européens. ",
+                    "picto": null,
+                    "id": "38d2023a-2b06-49c3-b761-211d01d3cf8f",
+                    "titre": "Pack europe",
+                    "updatedAt": "2022-01-27T10:20:05.559Z",
+                    "createdAt": "2022-01-27T10:18:33.739Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                },
+                {
+                    "accroche": "Logiciel de gestion de collections numérisées",
+                    "alias": "nemateria",
+                    "categorieID": "e6062345-e0f4-494d-b338-65eaf09a051b",
+                    "annee": null,
+                    "contenu": "Nemateria est la synthèse des réflexions et extensions des normes OAI-PMH et Dublin Core pour la valorisation de collections numérisées.\n\nConstruit sur une expérience d'usagers des données, il intègre un worflow complet permettant de renseigner des données de notices et collections et de les diffuser sur le Web en respectant la norme Dublin Core mais en l'étendant pour permettre des usages étendus à la culture, les archives, le tourisme...",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Initiative privée, le projet s'est développé depuis 2011 sur les expériences de gestion et utilisateurs du projet Immaterielles.org à l'initiative de M. Gérard Perrier, consultant, muséographe et archiviste.",
+                    "picto": null,
+                    "id": "e4485547-9e8e-4097-9f66-af46de13ae5f",
+                    "titre": "Nemateria",
+                    "updatedAt": "2022-01-27T10:01:13.069Z",
+                    "createdAt": "2022-01-27T09:53:41.287Z",
+                    "_deleted": null,
+                    "lien": "http://nemateria.eu/",
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": "exlineo propose des solutions clé en main  \npour les secteurs de la culture et de la science.   \n  \nAncrés dans nos valeurs, nos produits et développements s'orientent vers la communauté Open Source et la valorisation des savoirs pour les communautés culturelles et scientifiques.",
+        "createdAt": "2021-11-26T12:05:58.409Z",
+        "updatedAt": "2022-02-28T19:20:11.439Z",
+        "categorieMiseEnPageId": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+        "MiseEnPage": {
+            "id": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+            "type": "CustomBlog",
+            "description": "Les articles sont montrés à droite, la catégorie détaillée sur la gauche",
+            "_deleted": null
+        },
+        "_deleted": null
+    },
+    {
+        "accroche": "Ce que vous ne trouverez pas ailleurs",
+        "alias": "bonus",
+        "id": "9d540fda-1b6c-4ecf-9171-fcd9145b65ae",
+        "image": null,
+        "lien": null,
+        "titre": "Bonus",
+        "Articles": {
+            "items": []
+        },
+        "description": "Ce que vous ne trouverez pas ailleurs",
+        "createdAt": "2021-11-26T12:09:55.358Z",
+        "updatedAt": "2021-12-04T19:55:34.295Z",
+        "categorieMiseEnPageId": "2a426731-021f-46c1-9252-299c7608aba5",
+        "MiseEnPage": null,
+        "_deleted": null
+    },
+    {
+        "accroche": "Eco-conception & responsabilité",
+        "alias": "valeurs",
+        "id": "ece61893-a5c6-47c1-aab0-30ef526cb672",
+        "image": "../images/pages/terre.png",
+        "lien": null,
+        "titre": "Nos valeurs",
+        "Articles": {
+            "items": [
+                {
+                    "accroche": null,
+                    "alias": "conscience",
+                    "categorieID": "ece61893-a5c6-47c1-aab0-30ef526cb672",
+                    "annee": null,
+                    "contenu": "## Gestion de projets numériques\nLes engagements responsables, notamment dans le numérique, deviennent prégnants. Les impacts écologiques du secteur s’accroissent au rythme de sa représentation dans notre économie et nos usages et représentent déjà une part significative des impacts environnementaux globaux. Le numérique permet de gagner du temps, de réduire les espaces, d'augmenter les collaborations. Il peut être une solution s'il est traité raisonnablement et rationnellement.  \nPar le passé, nous avons fait les choix du confort et du développement jusqu'à nuire à l'avenir des générations à venir. Ici, chez exlineo, nous avons choisi de participer à notre mesure, aussi professionnellement, pour ne pas laisser une dette que n'aurions pas souhaitée pour nous même.  \nNotre approche de la gestion de projets couvre des dimensions élargies allant du conseil stratégique et de communication aux méthodes de gestion et de suivi quotidiennes (agiles notamment).\n Elle s’articule en étapes qui permettent de garantir la valeur ajoutée des projets tout en réduisant leurs impacts écologiques et sociaux dans un maximum de dimensions. Loin d'appliquer des recettes clé en main, nous cherchons à évoluer et à trouver dans chaque projet, chaque situation, la meilleure manière de limiter les impacts négatifs de nos réalisations.\nQuelques règles néamoins, en particulier dans les projets numériques :  \n1. Nous vous accompagnons dans la définition d'objectifs opérationnels et si nécessaire dans la rédaction d'un cahier des charges, des spécifications fonctionnelles et techniques.\n2. Les objectifs opérationnels permettent la définition d'un produit minimum viable (MVP) ou dans certains cas d'un prototype. Cette solution est économe et vous permet de tester votre projet le plus rapidement possible sur votre marché en diminuant vos coûts et en évitant le syndrome de l'[obésiciel](https://fr.wikipedia.org/wiki/Bloatware#:~:text=Un%20bloatware%20(%C3%A9galement%20appel%C3%A9%20inflagiciel,quantit%C3%A9%20importante%20de%20fonctionnalit%C3%A9s%20disparates.).\n3. Au quotidien, nous privilégions une gestion de projet Agile. Elle favorise le lien avec les utilisateurs finaux, garantit la valeur du produit pour ses utilisateurs (donc sa commercialisation) et permet un dialogue constructif pendant la réalisation des projets. Vous serez acteurs et pourrez suivre les avancées des fonctionnalités.\n4. Nous n'avons pas la science infuse alors, comme vous, nous réfléchissons et essayons de garder l'esprit ouvert et si possible, rationnel.  \nCette posture et ces procédures s'adaptent à chaque projet en fonction de vos contextes et moyens, en échange avec vous.",
+                    "imageA": null,
+                    "imageC": null,
+                    "imageI": null,
+                    "intro": "Dans chacune de nos actions nous pouvons choisir une démarche responsable. Loin des dogmes et des solutions préfabriquées, nous sommes engagés dans une réflexion responsable pour chacun des projets auxquels nous participons. L’environnement, la responsabilité sociale font partie de nos réflexions et propositions.",
+                    "picto": null,
+                    "id": "b6cdb1cf-48e1-44bc-b3a5-35dd778f9889",
+                    "titre": "Travailler en conscience",
+                    "updatedAt": "2022-02-10T21:06:58.054Z",
+                    "createdAt": "2022-01-24T20:09:43.740Z",
+                    "_deleted": null,
+                    "lien": null,
+                    "articleTypeId": null,
+                    "Type": null,
+                    "Media": {
+                        "items": []
+                    }
+                }
+            ]
+        },
+        "description": null,
+        "createdAt": "2021-11-26T12:04:46.934Z",
+        "updatedAt": "2022-02-28T19:05:17.243Z",
+        "categorieMiseEnPageId": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+        "MiseEnPage": {
+            "id": "69d829b9-f9a6-48f6-af05-a38311ac616f",
+            "type": "CustomBlog",
+            "description": "Les articles sont montrés à droite, la catégorie détaillée sur la gauche",
+            "_deleted": null
+        },
+        "_deleted": null
+    }
+]
