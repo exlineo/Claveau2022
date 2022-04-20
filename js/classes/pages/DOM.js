@@ -1,3 +1,4 @@
+import { ENV } from '../../../config/env.js';
 import { CustomPopup } from './Popup.js';
 
 export class CustomDOM extends CustomPopup {
@@ -32,22 +33,23 @@ export class CustomDOM extends CustomPopup {
         return e;
     }
     /** Créer une image avec arrière plan */
-    setFigure(src, ...attr) {
+    setFigure(i, ...attr) {
         let fig = document.createElement('figure');
-        if(src) this.setAttr(fig, {name:'style', value:`background-image:url(${src})`});
+        if(i.url) this.setAttr(fig, {name:'style', value:`background-image:url(${this.setUrl(i.url)})`});
         if (attr) {
             this.setAttr(fig, ...attr);
         };
-        return fig;
+        if(i.url) return fig;
     }
     /** Créer une image */
-    setImg(src, ...attr) {
+    setImg(i, ...attr) {
         let img = document.createElement('img');
-        if(src) img.src = src;
+        if(i.url) img.src = this.setUrl(i.url);
+        if(i.alternativeText) img.alt = i.alternativeText;
         if (attr) {
             this.setAttr(img, ...attr);
         };
-        return img;
+        if(i.url) return img;
     }
     /** Créer un bouton avec un lien */
     setBouton(lien, target='_blank'){
@@ -59,11 +61,11 @@ export class CustomDOM extends CustomPopup {
         return bouton;
     }
     /** Créer un bouton avec un lien */
-    setPopup(lien){
+    setPopup(data){
         let bouton = document.createElement('button');
         bouton.textContent = 'En savoir plus';
         bouton.addEventListener('click', (e)=>{
-            this.creePopup(lien);
+            this.creePopup(data);
         })
         return bouton;
     }
@@ -88,6 +90,10 @@ export class CustomDOM extends CustomPopup {
             left:y,
             behavior:'smooth'
         });
+    }
+    /** Créer une url en adresse absolue */
+    setUrl(u){
+        return ENV.absurl+u;
     }
     /** Envoyer un événement pour signifier qu'il y a des articles à créer */
     // setArticlesEvent(alias, obj){

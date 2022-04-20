@@ -5,11 +5,12 @@
   --rouge:#CE273D;
   --jaune:#FFB01F;
   --vert:#307353;
+  --noir:rgb(15, 15, 15);
 }
 html, body{
     scroll-behavior: smooth;
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:100vh;
     background-color: var(--clair);
 }
 html, body, main, section{
@@ -22,12 +23,12 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size:16px;
     font-weight: 500;
-    color:black;
+    color:var(--noir);
     position:relative;
 }
 nav{
   display:flex;
-  flex-flow:row nowrap;
+  flex-flow:row wrap;
   align-items: flex-end;
   justify-content: flex-end;
 }
@@ -37,9 +38,8 @@ nav#menu{
   box-sizing: border-box;
 }
 nav#menu > a{
-  line-height:40px;
   width: max-content;
-  padding:5px 15px;
+  padding:15px;
   background-color: var(--clair);
 }
 nav#reseaux{
@@ -53,6 +53,7 @@ nav#reseaux{
 }
 nav#reseaux > * {
   margin:auto 5px;
+  padding:5px;
 }
 nav#reseaux > a{
   margin:auto 0;
@@ -60,28 +61,24 @@ nav#reseaux > a{
 nav#reseaux > a > img{
   width:50px;
 }
-body > div{
-    display:flex;
-    flex-flow:row nowrap;
-    width:auto;
-    box-sizing: border-box;
-}
 a {
     cursor: pointer;
     font-weight:normal;
     transition:all .3s ease;
+    color:var(--noir);
+    text-decoration: none;
 }
 a:hover{
   transform: scale(1.1);
 }
 main{
-    width:90vw;
-    max-width: 1440px;
-    box-sizing:border-box;
-    margin:0 auto;
+    width:100vw;
+    overflow-x: hidden;
+    overflow-y:auto;
 }
 main > *{
-  width:100%;
+  width:100vw;
+  box-sizing: border-box;
 }
 main > header{
   height: 600px;
@@ -94,6 +91,7 @@ main > header > section:nth-child(1){
   height:150px;
   justify-content: flex-end;
   padding-right: 20px;
+  box-sizing: border-box;
 }
 main > header > section:nth-child(2){
   height:450px;
@@ -112,8 +110,29 @@ main > header > section:nth-child(2) > article:nth-child(1) > div{
   margin:auto 0 0 0;
   width:100%;
 }
-main > header > section:nth-child(2) > article:nth-child(2){
+#entete {
   background-color: var(--clair);
+  flex-flow:row wrap;
+  padding:20px 30px;
+}
+#entete h1{
+  font-weight: 900;
+}
+#entete h1, #entete h2, #entete h3{
+  margin:0;
+}
+#entete > div{
+  margin:10px 0;
+}
+#entete > div:nth-child(2){
+  width:60%;
+  box-sizing: border-box;
+}
+#entete > figure{
+  width:40%;
+}
+#entete > div:nth-child(1){
+  width:100%;
 }
 section{
   display:flex;
@@ -192,12 +211,12 @@ ul > li {
 }
 h1{
   font-weight:100;
-  font-size:60px;
+  font-size:36px;
   margin:50px 0 0;
 }
 h2{
   font-weight:100;
-  font-size:36px;
+  font-size:24px;
 }
 h3{
   font-weight:500;
@@ -687,23 +706,22 @@ button a:hover{
 
 /* SCROLLBARS */
 ::-webkit-scrollbar {
-  width: 14px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-  /* background-color: #e4e4e4; */
-  /* border-radius: 100px; */
-  background-color: rgba(255,255,255,.2);
+  background: var(--rose);
 }
-
 ::-webkit-scrollbar-thumb {
-  /* border-radius: 50px; */
-  border: 5px solid transparent;
-  background-clip: content-box;
+  border: 2px solid var(--rose);
+  /* background-clip: content-box; */
   background-color: var(--clair);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--vert);
 }
 /* Pour Firefox */
 .scroller{
   overflow-y: auto;
-  scrollbar-color: rgba(255,255,255,.2) var(--clair);
+  scrollbar-color: var(--clair);
   scrollbar-width: thin;
 }

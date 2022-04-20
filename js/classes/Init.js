@@ -1,13 +1,13 @@
-import { CustomArticle } from "./pages/DOM/Article.js";
-import { Menu } from "./pages/DOM/Menu.js";
-import { Graph } from "./data/Graph.js";
+import { REST } from "./data/REST.js";
+import { CustomPage } from './pages/Page.js';
 
 export class Init{
 
-    graph; // Les infos du menu
+    REST; // Les infos du menu
+    page; // La page des contenus
 
     constructor(){
-        this.graph = new Graph(document.querySelector('section.menu'));
+        this.page = new CustomPage();
 
         // Service worker pour gérer le cache
         if ('serviceWorker' in navigator) {

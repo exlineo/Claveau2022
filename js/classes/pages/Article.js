@@ -6,15 +6,37 @@ export class CustomArticle extends CustomDOM {
 
     constructor() {
         super();
+        // showdown.setOption('noHeaderId', true);
         this.md = new showdown.Converter();
+        // this.md.setOption('noHeaderId', false);
     };
+    /** Créer un article d'engagement */
+    setEngagements(){
 
+    }
+    /** Créer l'entête de la page */
+    setEntete(a){
+        console.log(a);
+        let article = document.getElementById('entete');
+
+        const obj = {};
+        if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
+        if (a.Contenu) { obj.contenu = this.setHtml('div', this.md.makeHtml(a.Contenu.substring(0, 150))) };
+        if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
+
+        for (let o in obj) {
+            article.appendChild(obj[o]);
+        }
+
+        article.appendChild(this.setPopup(a));
+        return article;
+    }
     /** Créer un article */
     setArticle(a) {
         let article = this.setEl('article');
         this.setAttr(article, { name: 'id', value: a.alias });
 
-        let obj = {}; // Objet d'initialisation
+        const obj = {}; // Objet d'initialisation
 
         if (a.imageA) { obj.imageA = this.setFigure(a.imageA) };
         if (a.titre) { obj.titre = this.setText('h2', a.titre) };
