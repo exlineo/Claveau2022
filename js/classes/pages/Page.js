@@ -33,6 +33,7 @@ export class CustomPage extends CustomArticle {
         this.setEntete(document.getElementById('entete'), this.getArticlesFiltres('entete')[0].attributes);
         this.setArticlesAlternes(document.getElementById('engagements'), this.getArticlesFiltres('engagements'), true);
         this.setArticlesAlternes(document.getElementById('propositions'), this.getArticlesFiltres('propositions'));
+        this.setDocuments(document.querySelector("footer > div:nth-child(1)"))
     }
     /** Trouver la liste des articles en fonction de leur catégorie
      * @param {string} cat Nom de la catégorie à filtrer
@@ -49,6 +50,14 @@ export class CustomPage extends CustomArticle {
             el.appendChild(this.setArticleAlterne(a.attributes, n, bg));
             ++n;
         });
+    }
+    /** Afficher la liste des communiqués de presse */
+    setDocuments(el){
+
+    }
+    /** afficher la liste des déplacements */
+    setDatesAgenda(el){
+        
     }
     /** Trier les articles */
     triArticles(paire) {

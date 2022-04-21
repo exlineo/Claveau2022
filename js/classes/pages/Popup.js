@@ -2,8 +2,7 @@ export class CustomPopup{
 
     article; // l'article qu'il faut écrire
 
-    constructor(){
-    }
+    constructor(){}
     /** Créer un popup */
     creePopup(a){
         // Enlever la popup su existante
