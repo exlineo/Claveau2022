@@ -15,14 +15,39 @@ export class CustomArticle extends CustomDOM {
 
     }
     /** Créer l'entête de la page */
-    setEntete(a){
-        console.log(a);
-        let article = document.getElementById('entete');
-
+    setEntete(el, a){
         const obj = {};
         if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
         if (a.Contenu) { obj.contenu = this.setHtml('div', this.md.makeHtml(a.Contenu.substring(0, 150))) };
         if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
+
+        for (let o in obj) {
+            el.appendChild(obj[o]);
+        }
+        el.querySelector('div:nth-child(2)').appendChild(this.setPopup(a));
+    }
+    /** Créer les articles pour les engagements */
+    setArticleAlterne(a, paire=0, bg=false){
+        console.log(a);
+        let article = document.createElement('article');
+
+        const obj = {};
+        if(paire % 2 == 0){
+            if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
+            if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
+            if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
+            if(bg) article.classList.add('bg-rose');
+        }else if(paire % 3 == 0){
+            if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
+            if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
+            if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
+            if(bg) article.classList.add('bg-vert');
+        }else{
+            if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
+            if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
+            if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
+            if(bg) article.classList.add('bg-rouge');
+        }
 
         for (let o in obj) {
             article.appendChild(obj[o]);

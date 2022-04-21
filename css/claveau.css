@@ -1,6 +1,7 @@
 :root{
   /* Variables */
-  --clair:#FFF8E8;
+  /* --clair:#FFF8E8; */
+  --clair:white;
   --rose:#960D34;
   --rouge:#CE273D;
   --jaune:#FFB01F;
@@ -75,6 +76,7 @@ main{
     width:100vw;
     overflow-x: hidden;
     overflow-y:auto;
+    scroll-behavior: smooth;
 }
 main > *{
   width:100vw;
@@ -134,6 +136,54 @@ main > header > section:nth-child(2) > article:nth-child(1) > div{
 #entete > div:nth-child(1){
   width:100%;
 }
+main > footer {
+  background-color:var(--jaune);
+  display:flex;
+  flex-flow:column nowrap;
+}
+main > footer > section > div{
+  box-sizing: border-box;
+  width:50%;
+  color:var(--clair);
+}
+main > footer h2{
+}
+main > footer hr{
+  border:none;
+  border-left:1px solid var(--clair);
+  transform: rotate(180deg);
+  background-color: var(--clair);
+  margin:50px 10px 0px;
+}
+main > footer .coins::before{
+  border-top-color:var(--clair);
+  border-left-color:var(--clair);
+}
+main > footer .coins::after{
+  border-right-color:var(--clair);
+  border-bottom-color:var(--clair);
+}
+main > footer > article {
+
+}
+main > footer > nav {
+  background-color: var(--vert);
+  display:flex;
+  flex-flow: row wrap;
+  color:var(--clair);
+  justify-content: center;
+}
+main > footer > nav > a {
+  color:var(--clair);
+  margin:0 10px;
+  font-size:12px;
+  display:block;
+  padding:15px;
+}
+main > footer > nav > a:hover {
+  background-color: var(--clair);
+  color:var(--vert);
+}
 section{
   display:flex;
 }
@@ -162,43 +212,25 @@ article > div > label{
   background-color:orange;
   font-style: italic;
 }
-main > section > * {
-    margin:auto;
-}
-main > section{
-  width:100vw;
-  height:100vh;
-  flex-flow:column wrap;
+main > section {
+  margin:25px 0;
+  box-sizing: border-box;
+  flex-flow:row wrap;
+  justify-content:stretch;
   align-items: stretch;
 }
-main > section > section{
+main > section > h2{
+  
+}
+main > section > article{
   display:flex;
-  flex-flow:column wrap;
-  align-items: center;
-  width:50vw;
-  height:calc(100vh - 75px);
-  margin:0;
-  padding:20px;
-  box-sizing: border-box;
-  overflow-y:auto;
+  flex-flow:column nowrap;
+  min-width:25vw;
+  flex:1;
 }
-main > section > section:nth-child(1){
-  background:0% 100% no-repeat;
-}
-main > section > article, main > section > section > article{
-  flex-flow:column wrap;
-  box-sizing: border-box;
-  width:100%;
-  columns: auto auto;
-  margin:auto 0;
-}
-main > section > article:nth-child(even), main > section > section:nth-child(even){
-  padding:0 5%;
-  padding-left: calc(5% + 70px);
-}
-main > section > article:nth-child(odd), main > section > section:nth-child(odd){
-  padding:5%;
-  padding-right: calc(5% + 70px);
+main > section > article > figure{
+  margin:0 -20px;
+  width:calc(100% + 40px);
 }
 p{
   padding-left:50px;
@@ -217,6 +249,10 @@ h1{
 h2{
   font-weight:100;
   font-size:24px;
+  position:relative;
+  width:max-content;
+  margin:20px auto 10px;
+  padding:5px 30px;
 }
 h3{
   font-weight:500;
@@ -232,9 +268,9 @@ h5{
 }
 figure{
   width:100%;
-  min-height:300px;
+  min-height:250px;
   background:50% no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding:0;
   margin:0;
   box-sizing: border-box;
@@ -517,15 +553,19 @@ button a:hover{
 }
 .bg-rose{
   background-color: var(--rose);
+  color:var(--clair);
 }
 .bg-rouge{
   background-color: var(--rouge);
+  color:var(--clair);
 }
 .bg-vert{
   background-color: var(--vert);
+  color:var(--clair);
 }
 .bg-jaune{
   background-color: var(--jaune);
+  color:var(--clair);
 }
 .bg-clair{
   background-color: var(--clair);
@@ -555,6 +595,28 @@ button a:hover{
   font-size:24px;
   vertical-align: middle;
   cursor: pointer;
+}
+.coins::before{
+  width:15px;
+  height: 15px;
+  border-top:1px solid var(--rose);
+  border-left:1px solid var(--rose);
+  position:absolute;
+  left:0;
+  top:0;
+  content: "";
+  display:inline-block;
+}
+.coins::after{
+  width:15px;
+  height: 15px;
+  border-right:1px solid var(--rose);
+  border-bottom:1px solid var(--rose);
+  position: absolute;
+  right:0;
+  bottom:0;
+  content: "";
+  display:inline-block;
 }
 /* UTILITAIRES */
 /* 

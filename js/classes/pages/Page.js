@@ -8,6 +8,7 @@ export class CustomPage extends CustomArticle {
     engageEl; // Ou écrire les engagements
     propEl; // Ou écrire les propostions
     rest; // La classe pour faire les requêtes
+    etat=false; // Indiquer si les contenus ont déjà été écrits...
 
     constructor() {
         super();
@@ -24,13 +25,14 @@ export class CustomPage extends CustomArticle {
         addEventListener('setCat', (e)=>{
             this.listeCategories = e.detail;
             console.log('Catégories reçues', this.listeCategories);
-            this.setPage();
+            if(!this.etat) this.setPage();
         });
     }
     /** Ecrire les données dans la page */
     setPage(){
-        console.log(this.getArticlesFiltres('entete'));
-        document.getElementById('entete').appendChild(this.setEntete(this.getArticlesFiltres('entete')[0].attributes));
+        this.setEntete(document.getElementById('entete'), this.getArticlesFiltres('entete')[0].attributes);
+        this.setArticlesAlternes(document.getElementById('engagements'), this.getArticlesFiltres('engagements'), true);
+        this.setArticlesAlternes(document.getElementById('propositions'), this.getArticlesFiltres('propositions'));
     }
     /** Trouver la liste des articles en fonction de leur catégorie
      * @param {string} cat Nom de la catégorie à filtrer
@@ -39,8 +41,14 @@ export class CustomPage extends CustomArticle {
         let tmp = this.listeCategories.filter(c => c.attributes.Alias == cat);
         return tmp[0].attributes.Articles.data;
     }
-    /** Créer les articles de la page */
-    setArticles(localTarget, articles, paire) {
+    /** Créer les articles des engagements et propositions */
+    setArticlesAlternes(el, articles=[], bg=false){
+        console.log("Appel du listing des articles");
+        let n = 0;
+        articles.forEach(a => {
+            el.appendChild(this.setArticleAlterne(a.attributes, n, bg));
+            ++n;
+        });
     }
     /** Trier les articles */
     triArticles(paire) {
