@@ -28,32 +28,54 @@ export class CustomArticle extends CustomDOM {
     }
     /** Créer les articles pour les engagements */
     setArticleAlterne(a, n=0, bg=false){
-        let article = document.createElement('article');
+        const article = document.createElement('article');
 
         const obj = {};
-        if(n % 2 == 0){
-            if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
-            if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
-            if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
-            if(bg) article.classList.add('bg-rose');
-        }else if(n % 3 == 0){
-            if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
-            if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
-            if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
-            if(bg) article.classList.add('bg-vert');
+        if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
+        if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
+        if(a.Contenu) obj.pop = this.setPopup(a);
+
+        if(n == 0){
+            if (a.MediaIntro.data.attributes.url) {
+                article.appendChild(this.setFigure(a.MediaIntro.data.attributes));
+                obj.trait = document.createElement('hr');
+                obj.trait.classList.add('bg-vert');
+            };
+        }else if(n % 2 == 0 && n != 0){
+            if (a.MediaIntro.data.attributes.url) {
+                article.appendChild(this.setFigure(a.MediaIntro.data.attributes));
+                const trait = document.createElement('hr');
+                trait.classList.add('bg-rose');
+                article.appendChild(trait);
+            };
+            article.appendChild(this.setObj(obj, 'bg-rose'));
+        }else if(n % 3 == 0 && n != 0){
+            article.appendChild(this.setObj(obj, 'bg-rouge'));
+            if (a.MediaIntro.data.attributes.url) {
+                article.appendChild(this.setFigure(a.MediaIntro.data.attributes));
+                const trait = document.createElement('hr');
+                trait.classList.add('bg-rouge');
+                article.appendChild(trait);
+            };
         }else{
-            if(a.Titre) {obj.titre = this.setText('h3', a.Titre)}
-            if (a.Intro) { obj.intro = this.setHtml('div', this.md.makeHtml(a.Intro)) };
-            if (a.MediaIntro.data.attributes.url) { obj.mediaIntro = this.setFigure(a.MediaIntro.data.attributes) };
-            if(bg) article.classList.add('bg-rouge');
-        }
-
-        for (let o in obj) {
-            article.appendChild(obj[o]);
-        }
-
-        article.appendChild(this.setPopup(a));
+            if (a.MediaIntro.data.attributes.url) {
+                article.appendChild(this.setFigure(a.MediaIntro.data.attributes));
+                const trait = document.createElement('hr');
+                trait.classList.add('bg-vert');
+                article.appendChild(trait);
+            };
+            article.appendChild(this.setObj(obj, 'bg-vert'));
+        };
         return article;
+    }
+    /** Ajouter les éléments d'un article dans l'article (sauf l'image) */
+    setObj(obj, bg){
+        const div = document.createElement('div');
+        for (let o in obj) {
+            div.appendChild(obj[o]);
+        }
+        if(bg) div.classList.add(bg);
+        return div;
     }
     /** Ouvrir une popup et écrire l'article cliqué dedans */
     setArticlePopup(a) {

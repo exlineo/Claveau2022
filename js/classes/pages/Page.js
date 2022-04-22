@@ -31,8 +31,8 @@ export class CustomPage extends CustomArticle {
     /** Ecrire les données dans la page */
     setPage(){
         this.setEntete(document.getElementById('entete'), this.getArticlesFiltres('entete')[0].attributes);
-        this.setArticlesAlternes(document.getElementById('engagements'), this.getArticlesFiltres('engagements'), true);
-        this.setArticlesAlternes(document.getElementById('propositions'), this.getArticlesFiltres('propositions'));
+        this.setArticlesAlternes(this.engageEl, this.getArticlesFiltres('engagements'), true);
+        this.setArticlesAlternes(this.propEl, this.getArticlesFiltres('propositions'));
         this.setDocuments(document.querySelector("footer > div:nth-child(1)"))
     }
     /** Trouver la liste des articles en fonction de leur catégorie

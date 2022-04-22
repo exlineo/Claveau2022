@@ -125,7 +125,7 @@ main > header > section:nth-child(2) > article:nth-child(1) > div{
   margin:0;
 }
 #entete > div{
-  margin:10px 0;
+  margin:0;
 }
 #entete > div:nth-child(2){
   width:60%;
@@ -228,12 +228,24 @@ main > h2{
 main > section > article{
   display:flex;
   flex-flow:column nowrap;
-  min-width:25vw;
+  max-width:25vw;
   flex:1;
+  position: relative;
+  overflow:hidden;
+  padding:0;
 }
 main > section > article > figure{
-  margin:0 -20px;
-  width:calc(100% + 40px);
+  /* margin:0 -20px; */
+  width:100%;
+}
+main > section > article > div{
+  padding:20px;
+  width:100%;
+  box-sizing: border-box;
+}
+main > section > article > figure:nth-child(even){
+}
+main > section > article > figure:nth-child(odd){
 }
 p{
   padding-left:50px;
