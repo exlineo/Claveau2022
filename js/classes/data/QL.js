@@ -106,3 +106,25 @@ export function reqCategories () {
    }
       `});
 };
+/** Requete pour récupérer la liste des articles */
+export function reqDocs () {
+  return JSON.stringify({query:`{
+      documents{
+        data{
+          id
+          attributes{
+            Titre
+            Alias
+            Description
+            Lien{
+              Titre
+              Url
+              Description
+              Cible
+            }
+          }
+        }
+      }
+    }`
+  })
+};

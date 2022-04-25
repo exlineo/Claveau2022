@@ -5,6 +5,8 @@ import { REST } from '../data/REST.js';
 export class CustomPage extends CustomArticle {
     listeArticles = []; // La liste des articles de la page
     listeCategories = []; // Liste des articles et des catégories
+    listDocs = []; // Liste des documents à afficher
+    listeAgenda = []; // Liste des événements de l'agenda
     engageEl; // Ou écrire les engagements
     propEl; // Ou écrire les propostions
     rest; // La classe pour faire les requêtes
@@ -27,13 +29,25 @@ export class CustomPage extends CustomArticle {
             console.log('Catégories reçues', this.listeCategories);
             if(!this.etat) this.setPage();
         });
+        // Recevoir les articles lorsqu'ils ont été traités par la requête REST
+        addEventListener('setDocs', (e)=>{
+            this.listeDocs = e.detail;
+            console.log('Documents reçus', this.listeDocs);
+            this.setDocuments(document.getElementById('presse'));
+        });
+        // Recevoir les articles lorsqu'ils ont été traités par la requête REST
+        addEventListener('setAgenda', (e)=>{
+            this.listeAgenda = e.detail;
+            console.log('Evénements reçus', this.listeAgenda);
+            this.setDatesAgenda(document.getElementById('agenda'));
+        });
     }
     /** Ecrire les données dans la page */
     setPage(){
         this.setEntete(document.getElementById('entete'), this.getArticlesFiltres('entete')[0].attributes);
         this.setArticlesAlternes(this.engageEl, this.getArticlesFiltres('engagements'), true);
         this.setArticlesAlternes(this.propEl, this.getArticlesFiltres('propositions'));
-        this.setDocuments(document.querySelector("footer > div:nth-child(1)"))
+        this.etat = true;
     }
     /** Trouver la liste des articles en fonction de leur catégorie
      * @param {string} cat Nom de la catégorie à filtrer
@@ -53,11 +67,16 @@ export class CustomPage extends CustomArticle {
     }
     /** Afficher la liste des communiqués de presse */
     setDocuments(el){
-
+        this.listeDocs.forEach(a => {
+            console.log(a.attributes);
+            el.appendChild(this.setArticleDocument(a.attributes));
+        });
     }
     /** afficher la liste des déplacements */
     setDatesAgenda(el){
-        
+        this.listeAgenda.forEach(a => {
+            el.appendChild(this.setArticleAgenda(a.attributes));
+        });
     }
     /** Trier les articles */
     triArticles(paire) {
