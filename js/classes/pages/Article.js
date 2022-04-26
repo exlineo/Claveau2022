@@ -98,11 +98,11 @@ export class CustomArticle extends CustomDOM {
         if(a.Titre) article.appendChild(this.setText('h4', a.Titre));
         
         const div = document.createElement('div');
-        if(a.Date) div.appendChild(this.setText('p', a.Date));
+        if(a.Date) div.appendChild(this.setHtml('p', this.setDate(a.Date)));
         if(a.Intro) div.appendChild(this.setText('p', a.Intro));
         
         const trait = document.createElement('hr');
-
+        div.querySelector('p:nth-child(1)').classList.add('date');
         article.appendChild(div);
         article.appendChild(trait);
         return article;

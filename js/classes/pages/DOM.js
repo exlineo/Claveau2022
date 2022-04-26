@@ -2,6 +2,8 @@ import { ENV } from '../../../config/env.js';
 import { CustomPopup } from './Popup.js';
 
 export class CustomDOM extends CustomPopup {
+    // Travail sur les dates
+    mois = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
 
     constructor() {
         super();
@@ -110,5 +112,11 @@ export class CustomDOM extends CustomPopup {
                 });
             });
         };
+    }
+    /** Ecrire une date */
+    setDate(d){
+        const date = new Date(d);
+        console.log(date.toLocaleDateString("fr"), date.getFullYear(), date.getMonth());
+        return `${date.getDay()}&nbsp;${this.mois[date.getMonth()]}<br>${date.getFullYear()}`;
     }
 }

@@ -94,6 +94,8 @@ a:hover {
 main {
   width: 80vw;
   margin: 0 auto;
+  display:flex;
+  flex-flow:column nowrap;
 }
 
 main>* {
@@ -137,39 +139,6 @@ main>header>section:nth-child(2)>article:nth-child(1)>div {
   margin: auto 0 0 0;
   width: 100%;
   position:relative;
-}
-
-#entete {
-  background-color: var(--clair);
-  flex-flow: row wrap;
-  padding: 20px 30px;
-}
-
-#entete h1 {
-  font-weight: 900;
-}
-
-#entete h1,
-#entete h2,
-#entete h3 {
-  margin: 0;
-}
-
-#entete>div {
-  margin: 0;
-}
-
-#entete>div:nth-child(2) {
-  width: 60%;
-  box-sizing: border-box;
-}
-
-#entete>figure {
-  width: 40%;
-}
-
-#entete>div:nth-child(1) {
-  width: 100%;
 }
 
 main>footer {
@@ -226,8 +195,6 @@ main>footer .coins::after {
   border-right-color: var(--clair);
   border-bottom-color: var(--clair);
 }
-
-main>footer>article {}
 
 main>footer>nav {
   background-color: var(--vert);
@@ -288,8 +255,6 @@ main>section {
   margin: 25px 0;
   box-sizing: border-box;
   flex-flow: row wrap;
-  justify-content: stretch;
-  align-items: stretch;
 }
 
 main>h2 {
@@ -335,29 +300,6 @@ main>section>article:nth-child(even)>div {
 }
 main>section>article:nth-child(odd)>div {
   bottom: 0;
-}
-#engagements>article:nth-child(even)>div {
-  background-color: var(--vert);
-  color: var(--clair);
-}
-#engagements>article:nth-child(odd)>div {
-  background-color: var(--rose);
-  color:var(--clair);
-}
-#engagements button{
-  background-color: var(--clair);
-  color:var(--noir);
-  bottom:-6px;
-}
-#engagements button:hover{
-  background-color: var(--jaune);
-  color: var(--clair);
-}
-#engagements>article>div{
-  border-bottom:6px solid rgba(0,0,0,.2);
-}
-#propositions>article>div{
-  /* border:1px solid rgba(0,0,0,.2); */
 }
 p {
   padding-left: 50px;
@@ -444,6 +386,65 @@ button a:hover {
   font-weight: 500;
 }
 
+#engagements>article:nth-child(even)>div {
+  background-color: var(--vert);
+  color: var(--clair);
+}
+#engagements>article:nth-child(odd)>div {
+  background-color: var(--rose);
+  color:var(--clair);
+}
+#engagements button{
+  background-color: var(--clair);
+  color:var(--noir);
+  bottom:-6px;
+}
+#engagements button:hover{
+  background-color: var(--jaune);
+  color: var(--clair);
+}
+#engagements>article>div{
+  border-bottom:6px solid rgba(0,0,0,.2);
+}
+
+#entete {
+  background-color: var(--clair);
+  flex-flow: row wrap;
+  padding: 20px 30px;
+}
+
+#entete h1 {
+  font-weight: 900;
+}
+
+#entete h1,
+#entete h2,
+#entete h3 {
+  margin: 0;
+}
+
+#entete>div {
+  margin: 0;
+}
+
+#entete>div:nth-child(2) {
+  width: 60%;
+  box-sizing: border-box;
+  display:flex;
+  flex-flow:column nowrap;
+}
+
+#entete>figure {
+  width: 40%;
+}
+
+#entete>div:nth-child(1) {
+  width: 100%;
+}
+#entete button{
+  position:relative;
+  margin-left:auto;
+}
 /* MENU */
 .menu-toggler {
   position: absolute;
@@ -723,7 +724,9 @@ button a:hover {
 .close:after {
   transform: rotate(-45deg);
 }
-
+.date{
+  text-align: center;
+}
 .rose {
   color: var(--rose);
 }

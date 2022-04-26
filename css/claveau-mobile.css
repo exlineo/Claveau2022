@@ -71,9 +71,10 @@ section.mobile ul>li .material-icons {
 }
 
 @media screen and (max-width: 1310px) {
-    main {
+    html, body, main {
         width: 100vw;
         margin: 0;
+        padding:0;
     }
     main>* {
         width: 100vw;
@@ -98,6 +99,54 @@ section.mobile ul>li .material-icons {
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 950px) {
+    main > section > article {
+        width:50vw;
+    }
+    #popup article {
+        flex-flow: column wrap;
+    }
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 520px) {
+    main > header, main>header>section:nth-child(2), main > section, footer > section{
+        flex-flow:column nowrap;
+        width:100vw;
+    }
+    main>header, main>header>section:nth-child(2){
+        height: fit-content;
+    }
+    main>header>section:nth-child(2)>article{
+        width:100vw;
+    }
+    main > section > article, main > footer > section > div {
+        width:100vw;
+        flex:auto;
+    }
+    main>header>section:nth-child(1){
+        height:250px;
+        padding-top:75px;
+    }
+    main>h2{
+        margin-top:20px;
+    }
+    main>footer>nav{
+        flex-flow: row nowrap;
+    }
+    main>footer>nav>a{
+        padding:10px;
+        margin:auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #menu{
+        flex-flow:row nowrap;
+    }
+    #menu > a{
+        max-width:25%;
+    }
+    article{
+        width:100%;
+    }
     #popup article {
         flex-flow: column wrap;
     }
